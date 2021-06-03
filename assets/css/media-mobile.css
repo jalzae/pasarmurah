@@ -1,0 +1,41 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
+body {
+    background-image: url(http://165.232.33.49/smpit/assets/img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#loginowner {
+    max-width: 60%;
+    text-align: center;
+    margin: 0px auto;
+    background: content-box;
+}
+
+form {
+    max-width: 70%;
+    margin: 0px auto;
+}
+
+@media only screen and (max-width: 700px) {
+    #loginowner {
+        min-width: 100%;
+        text-align: center;
+        margin: 0px auto;
+        background: content-box;
+    }
+}
+
+@media only screen and (max-width: 338px) {
+    #loginowner {
+        max-width: 100%;
+        text-align: center;
+        margin: 0px auto;
+        background: content-box;
+    }
+    form {
+        max-width: 100%;
+        margin: 0px auto;
+    }
+}
